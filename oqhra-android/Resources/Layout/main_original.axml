@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/relLayout"
+  android:layout_width="match_parent"
+  android:background="@drawable/back_home"
+  android:layout_height="match_parent">
+  <TableLayout
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:layout_below="@+id/imgAdvert"
+    android:stretchColumns="1">
+    <TableRow
+      android:id="@+id/tableRow"
+      android:layout_width="match_parent"
+      android:layout_height="40px"
+      android:background="#ff333333"
+      android:orientation="horizontal">
+      <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cc333333"
+        android:src="@drawable/BackBtn_Black"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentLeft="true" />
+      <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="265px"
+        android:layout_height="30px"
+        android:background="#ff333333"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_alignTop="@+id/imgBack"
+        android:layout_alignParentRight="true" />
+    </TableRow>
+  </TableLayout>
+  <ImageView
+    android:id="@+id/imgAdvert"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:src="@drawable/HP_iPhone"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true" />
+  <ImageView
+    android:id="@+id/imgAdvert"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:src="@drawable/HP_iPhone"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true" />
+  <ListView
+    android:id="@+id/listView"
+    android:layout_width="20px"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_below="@+id/table"
+    android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

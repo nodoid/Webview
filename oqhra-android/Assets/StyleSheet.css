@@ -1,0 +1,1215 @@
+﻿/* **********************************************************************
+     Document Main Setup - DO NOT TOUCH!!!
+********************************************************************** */
+
+a, a:link, a:visited
+{
+    text-decoration: none;
+    color: Blue;
+}
+#MainContainer
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+#loading
+{
+    -webkit-border-radius: 10px;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    margin-top: -40px;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    z-index: 1001;
+}
+#imageLoading
+{
+    width: 30px;
+    height: 30px;
+}
+.iphone .video, .ipod .video
+{
+    position: absolute;
+    width: 320px;
+    height: 250px;
+    top: -11px;
+    left: -11px;
+}
+.ipad .video
+{
+    width: 640px;
+    height: 500px;
+}
+/* **********************************************************************
+     END Document Main Setup - DO NOT TOUCH!!!
+********************************************************************** */
+
+/* **********************************************************************
+     Header, Content & Footer Components
+********************************************************************** */
+#Header
+{
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    width: 100%;
+    height: 40px; /* Equals top of Content */
+}
+.iphone #Header, .ipad #Header
+{
+    top: 20px;
+}
+.win #Header, .mac #Header
+{
+    top: 0px;
+    width: 728px;
+    left: 50%;
+    margin-left: -364px;
+}
+#Content
+{
+    color: Blue;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    bottom: 50px; /* Equals height of footer */
+    top: 40px; /* Equals height of header */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.iphone #Content, .ipad #Content
+{
+    top: 60px;
+}
+.win #Content, .mac #Content
+{
+    left: 50%;
+    margin-left: -364px;
+    width: 728px;
+}
+.mainContent
+{
+    color: Blue;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0px;
+    top: 44px; /* Equals height of TitleBar */
+}
+.win .mainContent, .mac .mainContent
+{
+    overflow: auto;
+}
+.mainContent2
+{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0px;
+    top: 88px; /* Equals height of TitleBar */
+}
+.win .mainContent2, .mac .mainContent2
+{
+    overflow: auto;
+}
+#Footer
+{
+    position: absolute;
+    z-index: 999;
+    bottom: 0px;
+    height: 50px; /* Equals Content bottom */
+    width: 100%;
+    border-width: 3px 0px 4px 0px;
+    -webkit-border-image: url(../images/BackBtmMenu.png) 3 0 4 0 stretch stretch;
+    -moz-border-image: url(../images/BackBtmMenu.png) 3 0 4 0 stretch stretch;
+}
+.win #Footer, .mac #Footer
+{
+    left: 50%;
+    margin-left: -364px;
+    width: 728px;
+}
+/* **********************************************************************
+     END - Header, Content & Footer Components
+********************************************************************** */
+
+/* **********************************************************************
+     General Page Components
+********************************************************************** */
+.pageButton
+{
+    /* Don't Touch */
+    text-align: center;
+    float: left;
+    width: 100px;
+    border-width: 10px 10px 10px 10px;
+    -webkit-border-image: url(../images/Components/Btn-DkBlue.png) 10 10 10 10 stretch stretch;
+    -moz-border-image: url(../images/Components/Btn-DkBlue.png) 10 10 10 10 stretch stretch;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px; /* Don't Touch */
+}
+.pageButtonAction
+{
+    /* Don't Touch */
+    text-align: center;
+    border-width: 10px 10px 10px 10px;
+    -webkit-border-image: url(../images/iPad/BtnMsg.png) 10 10 10 10 stretch stretch;
+    -moz-border-image: url(../images/iPad/BtnMsg.png) 10 10 10 10 stretch stretch;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px; /* Don't Touch */
+}
+/* **********************************************************************
+     END General Page Components
+********************************************************************** */
+
+/* **********************************************************************
+     Title Bar Components
+********************************************************************** */
+.TitleBar
+{
+    width: 100%;
+    z-index: 998;
+    height: 44px;
+    background-color: Black;
+    border-width: 0px 1px 0px 0px;
+    -webkit-border-image: url(../images/BarBk-Black.png) 0 1 0 0 stretch stretch;
+    -moz-border-image: url(../images/BarBk-Black.png) 0 1 0 0 stretch stretch;
+}
+.TitleContainer
+{
+    width: 100%;
+    height: 44px;
+    display: table;
+    vertical-align: middle;
+}
+.BackBtn
+{
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    border-width: 10px 10px 10px 13px;
+    -webkit-border-image: url(../images/iPad/BtnBack-Black.png) 10 10 10 13 stretch stretch;
+    -moz-border-image: url(../images/iPad/BtnBack-Black.png) 10 10 10 13 stretch stretch;
+}
+.BackBtn:active
+{
+    border-width: 10px 10px 10px 13px;
+    -webkit-border-image: url(../images/iPad/BtnBack-Black-Over.png) 10 10 10 13 stretch stretch;
+    -moz-border-image: url(../images/iPad/BtnBack-Black-Over.png) 10 10 10 13 stretch stretch;
+}
+.TitleLabel
+{
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 60%; /* 100% - margin-left & margin-right */
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 44px; /* has to be set the same as TitleBar height to keep centered */
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 1px 0px #000000;
+}
+.TitleLabelFull
+{
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 96%; /* 100% - margin-left & margin-right */
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 44px; /* has to be set the same as TitleBar height to keep centered */
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 1px 0px #000000;
+}
+.CenteredBtn
+{
+    display: block;
+    text-align: center;
+    border-width: 10px 10px 10px 10px;
+    -webkit-border-image: url(../images/iPad/Btn-Black.png) 10 10 10 10 stretch stretch;
+    -moz-border-image: url(../images/iPad/Btn-Black.png) 10 10 10 10 stretch stretch;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+}
+.CenteredBtn:active
+{
+    border-width: 10px 10px 10px 10px;
+    -webkit-border-image: url(../images/iPad/Btn-Black-Over.png) 10 10 10 10 stretch stretch;
+    -moz-border-image: url(../images/iPad/Btn-Black-Over.png) 10 10 10 10 stretch stretch;
+}
+.RightBtn
+{
+    text-align: center;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    border-width: 10px 10px 10px 10px;
+    -webkit-border-image: url(../images/iPad/Btn-Black.png) 10 10 10 10 stretch stretch;
+    -moz-border-image: url(../images/iPad/Btn-Black.png) 10 10 10 10 stretch stretch;
+    display: block;
+}
+.RightBtn:active
+{
+    border-width: 10px 10px 10px 10px;
+    -webkit-border-image: url(../images/iPad/Btn-Black-Over.png) 10 10 10 10 stretch stretch;
+    -moz-border-image: url(../images/iPad/Btn-Black-Over.png) 10 10 10 10 stretch stretch;
+}
+/* **********************************************************************
+     END - Title Bar Components
+********************************************************************** */
+
+/* **********************************************************************
+     Bottom Menu Components
+********************************************************************** */
+#BtmMenuContainer
+{
+    /* Do Not Change */
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.BtmMenuItems
+{
+    height: 100%;
+    position: relative;
+    display: table-cell;
+    float: left;
+    text-align: center;
+    vertical-align: middle; /* Only change below based on the number of menu items ie 5 items = 20% */
+    width: 25%;
+}
+#BtmMenuItem1
+{
+    background: url(../images/iPhone/Retina/BtmMenu-BackOverlay.png) no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.BtmMenuIcons
+{
+    position: absolute;
+    display: block;
+    top: 3px;
+    text-align: center;
+    margin-bottom: 3px;
+    height: 30px;
+    width: 100%;
+    float: left;
+}
+.BtmMenuText
+{
+    display: table-cell;
+    position: absolute;
+    bottom: 4px;
+    float: left;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 10px;
+    color: #c6c6c5;
+    width: 100%;
+    height: 10px;
+    display: block;
+    text-align: center;
+}
+/* **********************************************************************
+     END - Bottom Menu Components
+********************************************************************** */
+
+/* **********************************************************************
+     Popup Components
+********************************************************************** */
+#popupContainer
+{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+}
+#menuPopup
+{
+    display: block;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    left: 5%;
+    top: 5%;
+    overflow: hidden;
+    border-width: 15px 15px 20px 15px;
+    -webkit-border-image: url(../images/Menu-PopUp-Back.png) 15 15 20 15 stretch stretch;
+    -moz-border-image: url(../images/Menu-PopUp-Back.png) 15 15 20 15 stretch stretch;
+}
+.ipad #menuPopup
+{
+    left: 8%;
+    top: 8%;
+}
+#PopupWrapper
+{
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%; /* your desired width, auto and 100% are fine */
+    height: 100%; /* element height */
+}
+#PopupSteve
+{
+    color: White;
+}
+.menuCancel
+{
+    display: table;
+    float: right;
+    margin-bottom: 3px;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    border-width: 5px 5px 5px 5px;
+    -webkit-border-image: url(../images/iPhone/Btn-Red.png) 5 5 5 5 stretch stretch;
+    -moz-border-image: url(../images/iPhone/Btn-Red.png) 5 5 5 5 stretch stretch;
+}
+.popupMenuItems
+{
+    display: block;
+    clear: both;
+    left: 5px;
+    right: 5px;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    border-width: 5px 5px 5px 5px;
+    -webkit-border-image: url(../images/Btn-PopUp-Cancel.png) 5 5 5 5 stretch stretch;
+    -moz-border-image: url(../images/Btn-PopUp-Cancel.png) 5 5 5 5 stretch stretch;
+}
+.popupIcon
+{
+    margin-right: 5px;
+}
+/* **********************************************************************
+     END - Popup Components
+********************************************************************** */
+
+/* **********************************************************************
+     Contact Components
+********************************************************************** */
+.contact
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.contactHead
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.contactSub
+{
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: top;
+    padding-top: 20px;
+}
+.contactItal
+{
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+    vertical-align: top;
+}
+.contactPhone
+{
+    text-align: right;
+    text-decoration: underline;
+    color: #0000FF;
+    vertical-align: top;
+    padding-top: 20px;
+}
+.contactPhone2
+{
+    text-decoration: underline;
+    color: #0000FF;
+    vertical-align: top;
+}
+/* **********************************************************************
+     END - Contact Components
+********************************************************************** */
+
+/* **********************************************************************
+     iScroll Components
+********************************************************************** */
+.wrapper
+{
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    background-color: Black;
+    width: 100%; /* your desired width, auto and 100% are fine */
+    height: 100%; /* element height */
+}
+.wrapper2
+{
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%; /* your desired width, auto and 100% are fine */
+    height: 100%; /* element height */
+}
+#shoppingWrapper, #diningWrapper
+{
+    background-image: url(  'Back-Business.png' );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* **********************************************************************
+     END - iScroll Components
+********************************************************************** */
+
+/* **********************************************************************
+     Page Menu Components
+********************************************************************** */
+.pageMenu
+{
+    position: relative;
+    background-color: rgba(0,0,0,.5);
+    border: 1px solid #000000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.pageMenuHeader
+{
+    padding: 10px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 16px;
+    color: White;
+    text-shadow: 0px 1px 0px #000000;
+}
+.pageMenuItem
+{
+    display: block;
+    border-bottom: 1px solid #000000;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    color: White;
+    padding: 10px; /* Has to be the same as .pageMenuArrows to keep centered */
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #000000;
+}
+.pageMenuSub
+{
+    font-size: 12px;
+    font-weight: normal;
+}
+.pageMenuInfo
+{
+    display: block;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: White;
+    padding: 10px; /* Has to be the same as .pageMenuArrows to keep centered */
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #0000;
+}
+.pageMenuArrows
+{
+    float: right;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding-top: 10px; /* Has to be the same as .pageMenuItem to keep centered */
+    border-width: 1px 1px 1px 1px;
+    -webkit-border-image: url(../images/iPhone/Retina/Arrow-White.png) 1 1 1 1 stretch stretch;
+    -moz-border-image: url(../images/iPhone/Retina/Arrow-White.png) 1 1 1 1 stretch stretch;
+}
+.pageMenuItem:last-child
+{
+    border-bottom: 0px;
+}
+.pageMenuButton
+{
+    /* Don't Touch */
+    text-align: center;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-width: 10px 10px 10px 10px;
+    -webkit-border-image: url(../images/iPad/Btn-Black.png) 10 10 10 10 stretch stretch;
+    -moz-border-image: url(../images/iPad/Btn-Black.png) 10 10 10 10 stretch stretch;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px; /* Don't Touch */
+}
+/* **********************************************************************
+     END - Page Menu Components
+********************************************************************** */
+
+/* **********************************************************************
+     Betting Components
+********************************************************************** */
+.infoHeader
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+.infoContent
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+}
+.calculateTitles
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+.calculateInstruction
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+}
+.calculateHead
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.calculateResults
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: Black;
+}
+
+/* *****************************************************************
+
+Profiles
+
+***************************************************************** */
+
+#ProfileHeader
+{
+    position: relative;
+    color: Black;
+    top: 0px;
+    width: 100%;
+    height: 150px;
+    display: table;
+}
+
+#ProfilePhoto
+{
+    position: relative;
+    width: 140px;
+    height: 130px;
+    color: Black;
+    padding: 10px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ProfileTitle
+{
+    display: table-cell;
+    height: 130px;
+    color: Black;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ProfileLink
+{
+    position: relative;
+    width: 100%;
+    color: Black;
+    height: 44px;
+}
+
+#ProfileDescription
+{
+    color: Black;
+}
+
+#ProfileContact
+{
+    color: Black;
+}
+
+.ProfileImage
+{
+    border: 5px solid #000000;
+    max-height: 100%;
+    color: Black;
+    max-width: 100%;
+}
+
+.ProfileHeadline
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: Black;
+}
+
+.ProfileSubHead
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 35px;
+    color: Black;
+}
+
+.ProfileDescription
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: Black;
+}
+
+/* **********************************************************************
+     END - Betting Components
+********************************************************************** */
+
+/* **********************************************************************
+     Spinning Wheel
+********************************************************************** */
+#sw-wrapper
+{
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    width: 100%;
+    font-family: helvetica, sans-serif;
+    background: rgba(0,0,0,0.7);
+    text-align: left;
+}
+
+#sw-header
+{
+    position: relative;
+    width: 100%;
+    height: 43px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: url(sw-header.png) 0 0 repeat-x;
+    opacity: 0.9;
+}
+
+#sw-cancel, #sw-done
+{
+    position: absolute;
+    top: 7px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    margin: 0;
+    border-width: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.8) 0 -1px 0;
+    color: #fff;
+}
+
+#sw-cancel
+{
+    left: 7px;
+    float: left;
+    -webkit-border-image: url(sw-button-cancel.png) 5;
+}
+
+#sw-done
+{
+    right: 7px;
+    float: right;
+    -webkit-border-image: url(sw-button-done.png) 5;
+}
+
+.sw-pressed
+{
+    opacity: 0.4;
+}
+
+#sw-slots-wrapper
+{
+    position: relative;
+    z-index: 999;
+    display: block;
+    height: 215px;
+    padding: 0 11px;
+    overflow: hidden;
+}
+
+#sw-slots
+{
+    display: table;
+    width: 100%;
+    background: #fcfcfc;
+}
+
+#sw-slots div
+{
+    display: table-cell;
+    height: 100%;
+    padding-top: 86px;
+    border-left: 2px solid #0d0e0f;
+    background-color: #fcfcfc;
+    background-image: url(sw-slot-border.png);
+    background-position: 0 0, 100% 0;
+    background-repeat: repeat-y;
+}
+
+#sw-slots div:first-child
+{
+    border: 0;
+}
+
+#sw-slots ul
+{
+    padding: 0 0 85px 0;
+    margin: 0;
+    list-style: none;
+}
+
+#sw-slots .sw-right
+{
+    text-align: right;
+}
+#sw-slots .sw-shrink
+{
+    width: 1%;
+}
+#sw-slots .sw-readonly
+{
+    background: #ddd;
+}
+
+#sw-slots li
+{
+    padding: 0 8px;
+    height: 44px;
+    overflow: hidden;
+    font: bold 18px/44px Helvetica,sans-serif;
+}
+
+#sw-frame
+{
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 183px;
+    border-width: 16px;
+    -webkit-border-image: url(sw-alpha.png) 16;
+}
+/* **********************************************************************
+     END - Spinning Wheel
+********************************************************************** */
+
+/* **********************************************************************
+     Add 2 Home
+********************************************************************** */
+html
+{
+    -webkit-text-size-adjust: none;
+}
+
+/**
+ *
+ * Main container
+ *
+ */
+#addToHomeScreen
+{
+    z-index: 9999;
+    -webkit-user-select: none;
+    -webkit-box-sizing: border-box;
+    width: 208px;
+    font-size: 13px;
+    padding: 10px;
+    text-align: left;
+    font-family: helvetica;
+    background-image: -webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(0.02,#eee),color-stop(0.98,#ccc),color-stop(1,#a3a3a3));
+    border: 1px solid #505050;
+    -webkit-border-radius: 8px;
+    -webkit-background-clip: padding-box;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+    line-height: 130%;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+/**
+ *
+ * The 'wide' class is added when the popup contains the touch icon
+ *
+ */
+#addToHomeScreen.wide
+{
+    width: 240px;
+}
+
+/**
+ *
+ * The balloon arrow
+ *
+ */
+#addToHomeScreen .arrow
+{
+    position: absolute;
+    background-image: -webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(204,204,204,0)),color-stop(0.4,rgba(204,204,204,0)),color-stop(0.4,#ccc));
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #505050;
+    width: 16px;
+    height: 16px;
+    -webkit-transform: rotateZ(45deg);
+    bottom: -9px;
+    left: 50%;
+    margin-left: -8px;
+    -webkit-box-shadow: inset -1px -1px 0 #a9a9a9;
+    -webkit-border-bottom-right-radius: 2px;
+}
+
+/**
+ *
+ * The balloon arrow for iPad
+ *
+ */
+#addToHomeScreen.ipad .arrow
+{
+    -webkit-transform: rotateZ(-135deg);
+    background-image: -webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(238,238,238,0)),color-stop(0.4,rgba(238,238,238,0)),color-stop(0.4,#eee));
+    -webkit-box-shadow: inset -1px -1px 0 #fff;
+    top: -9px;
+    bottom: auto;
+    left: 50%;
+}
+
+/**
+ *
+ * Close button
+ *
+ */
+#addToHomeScreen .close
+{
+    -webkit-box-sizing: border-box;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    line-height: 10px;
+    text-align: center;
+    text-indent: 1px;
+    font-size: 14px;
+    -webkit-border-radius: 7px;
+    background: rgba(0,0,0,0.12);
+    color: #707070;
+    -webkit-box-shadow: 0 1px 0 #fff;
+    font-size: 13px;
+}
+
+/**
+ *
+ * The '+' icon, displayed only on iOS < 4.2
+ *
+ */
+#addToHomeScreen .plus
+{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/**
+ *
+ * The 'share' icon, displayed only on iOS >= 4.2
+ *
+ */
+#addToHomeScreen .share
+{
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAQAAABDj1eZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUdJREFUKFNtkLtLw1AYxS/qJLhXVKr2ZRulUNtiqgSb3CziICI6ucTFVYcOnaQOFRwUnNTRwUWXgpP/QdHNUEQUHGxofYBTlRs83iZNjKTncOGe7/vx3QchXUWn6FL3jhfKUdCCr5zuifV5oDiHQM+c+CIhiiCSWNu08iq9oHXKLAiqrgR4UXqlOEYZt++ExEL0wW7+OW0G10muLv9gmqfe5FAWKmTMYQYiFL7PYwyLOD8lSjNh2gdnPzMII4QUBxc4OothbAF7GCBKQ0YbSWyPQsIhqvetS+y0ygGMo/KFZfviDvR4AhwgZU9dGYnA0J/6ndc15i3ouYIMcVVUcEXIoOxCeRCfwP8sXBSdjtpUv/1QW+K16kCCIUC4id9Fa0JtkluwVkSfqPL6RwfSDA0aNlx7k/bWgViB7bMS2/1vk5sdsZLN/ALSuL3tylO4RAAAAABJRU5ErkJggg==);
+    background-size: 18px 15px;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+
+/**
+ *
+ * The touch icon (if available)
+ *
+ */
+#addToHomeScreen .touchIcon
+{
+    display: block;
+    float: left;
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5), inset 0 0 2px rgba(255,255,255,0.9);
+    background-repeat: none;
+    width: 44px;
+    height: 44px;
+    -webkit-background-size: 44px 44px;
+    margin: 0 10px 5px 0;
+    border: 1px solid #333;
+    -webkit-background-clip: padding-box;
+}
+
+/**
+ *
+ * The 'share' icon for retina display
+ *
+ */
+/* **********************************************************************
+     END Add 2 Home
+********************************************************************** */
+
+/* **********************************************************************
+     Temp Styles used in Temp Shopping & Dining Pages
+********************************************************************** */
+.style1
+{
+    text-align: center;
+}
+.style2
+{
+    font-size: large;
+}
+#FairMeadows
+{
+    text-align: center;
+}
+.style4
+{
+    font-family: "Times New Roman" , Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.style5
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+}
+.style6
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.style10
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: #FFFFFF;
+}
+.style11
+{
+    font-size: large;
+    font-weight: bold;
+}
+.style12
+{
+    font-family: "Times New Roman" , Times, serif;
+    color: #FFFFFF;
+}
+.style13
+{
+    color: #FFFFFF;
+}
+
+/* *************************************************************
+    Result Displays
+************************************************************* */
+.Results
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.ResultsNew
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.ResultsHeadline
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: Silver;
+}
+.ResultsName
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.ResultsNameNew
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.ResultsSubName
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.ResultsSubNameNew
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.ResultsTrack
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+    border-bottom-color: #C0C0C0;
+    text-align: center;
+    padding: 5px;
+}
+.ResultsTrackNew
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+    border-bottom-color: #C0C0C0;
+    text-align: center;
+    padding: 5px;
+}
+
+.ResultsOtherNew
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+    border-bottom-color: #C0C0C0;
+    padding: 5px;
+}
+.ResultsOtherNewA
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+.ResultsOther
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+    border-bottom-color: #C0C0C0;
+    padding: 5px;
+}

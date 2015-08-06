@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/relLayout"
+		android:layout_width="match_parent"
+		android:background="@drawable/back_lazye"
+		android:layout_height="match_parent">
+			<TableLayout
+				android:id="@+id/masterTable"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:gravity="center"
+				android:paddingBottom="6dp"
+				android:layout_gravity="center_horizontal"
+				android:layout_below="@+id/table"
+				>
+				<TableRow
+					android:id="@+id/row0"
+					android:layout_width="fill_parent"
+					android:layout_height="30px"
+					android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textSun"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:textColor="#ff000000"
+							android:text="Sun"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textMon"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="Mon"
+							android:textColor="#ff000000"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textTue"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:textColor="#ff000000"
+							android:text="Tue"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textWed"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="Wed"
+							android:textColor="#ff000000"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textThu"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="Thu"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textFri"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="Fri"
+							android:textColor="#ff000000"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textSat"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="Sat"
+							android:textColor="#ff000000"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+				</TableRow>
+				<TableRow
+					android:id="@+id/row1"
+					android:layout_width="fill_parent"
+					android:layout_height="30px"
+					android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textDate1"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:textColor="#ff000000"
+							android:text="88"
+							android:textSize="18sp"
+							android:layout_weight="0.143"
+							android:gravity="center_horizontal"/>
+						<TextView
+							android:id="@+id/textDate2"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textColor="#ff000000"
+							android:textSize="18sp"
+							android:layout_weight="0.143"
+							android:gravity="center_horizontal" />
+						<TextView
+							android:id="@+id/textDate3"
+							android:layout_width="wrap_content"
+							android:textColor="#ff000000"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+					android:layout_weight="0.143"
+					android:gravity="center_horizontal" />
+						<TextView
+							android:id="@+id/textDate4"
+					android:textColor="#ff000000"
+					android:gravity="center_horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate5"
+							android:gravity="center_horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate6"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textColor="#ff000000"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate7"
+							android:layout_width="wrap_content"
+							android:textColor="#ff000000"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+					android:layout_weight="0.143"
+					android:gravity="center_horizontal" />
+				</TableRow>
+				<TableRow
+					android:id="@+id/row2"
+					android:layout_width="fill_parent"
+					android:layout_height="30px"
+					android:orientation="horizontal">
+						<TextView
+		android:id="@+id/textDate8"
+		android:layout_width="wrap_content"
+		android:layout_height="30px"
+		android:text="88"
+		android:textSize="18sp"
+android:textColor="#ff000000"
+					android:gravity="center_horizontal"
+		android:layout_alignLeft="@+id/textDate1"
+		android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate9"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+							android:layout_weight="0.143"
+					android:textColor="#ff000000"
+					android:gravity="center_horizontal" />
+						<TextView
+							android:id="@+id/textDate10"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+					android:text="88"
+					android:gravity="center_horizontal"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate11"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+					android:layout_weight="0.143"
+					android:gravity="center_horizontal" />
+						<TextView
+							android:id="@+id/textDate12"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+					android:layout_weight="0.143"
+					android:gravity="center_horizontal" />
+						<TextView
+							android:id="@+id/textDate13"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+					android:layout_weight="0.143"
+					android:gravity="center_horizontal" />
+						<TextView
+							android:id="@+id/textDate14"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textColor="#ff000000"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+				</TableRow>
+				<TableRow
+					android:id="@+id/row3"
+					android:layout_width="fill_parent"
+					android:layout_height="30px"
+					android:orientation="horizontal">
+						<TextView
+		android:id="@+id/textDate15"
+		android:layout_width="wrap_content"
+		android:layout_height="30px"
+		android:text="88"
+android:textSize="18sp"
+					android:gravity="center_horizontal"
+		android:textColor="#ff000000"
+		android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate16"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textColor="#ff000000"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate17"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+					android:textColor="#ff000000"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate18"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:textColor="#ff000000"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate19"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:textColor="#ff000000"
+					android:text="88"
+					android:gravity="center_horizontal"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate20"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+					android:text="88"
+					android:gravity="center_horizontal"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate21"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+					android:text="88"
+					android:gravity="center_horizontal"
+							android:textColor="#ff000000"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+				</TableRow>
+				<TableRow
+					android:id="@+id/row4"
+					android:layout_width="fill_parent"
+					android:layout_height="30px"
+					android:orientation="horizontal">
+						<TextView
+		android:id="@+id/textDate22"
+		android:layout_width="wrap_content"
+android:layout_height="30px"
+					android:gravity="center_horizontal"
+		android:text="88"
+		android:textColor="#ff000000"
+		android:textSize="18sp"
+		android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate23"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:textColor="#ff000000"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate24"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textColor="#ff000000"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate25"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+					android:text="88"
+					android:gravity="center_horizontal"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate26"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+					android:text="88"
+					android:gravity="center_horizontal"
+							android:textColor="#ff000000"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate27"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:textColor="#ff000000"
+							android:text="88"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate28"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:textColor="#ff000000"
+							android:text="88"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+				</TableRow>
+				<TableRow
+					android:id="@+id/row5"
+					android:layout_width="fill_parent"
+					android:layout_height="30px"
+					android:orientation="horizontal">
+						<TextView
+		android:id="@+id/textDate29"
+android:layout_width="wrap_content"
+					android:gravity="center_horizontal"
+		android:textColor="#ff000000"
+		android:layout_height="30px"
+		android:text="88"
+		android:textSize="18sp"
+		android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate30"
+							android:layout_width="wrap_content"
+					android:layout_height="30px"
+					android:gravity="center_horizontal"
+							android:textColor="#ff000000"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate31"
+							android:layout_width="wrap_content"
+					android:layout_height="30px"
+					android:gravity="center_horizontal"
+							android:textColor="#ff000000"
+							android:text="88"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate32"
+							android:layout_width="wrap_content"
+					android:textColor="#ff000000"
+					android:gravity="center_horizontal"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate33"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+					android:textColor="#ff000000"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+						<TextView
+							android:id="@+id/textDate34"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textSize="18sp"
+							android:textColor="#ff000000"
+					android:layout_weight="0.143"
+					android:gravity="center_horizontal" />
+						<TextView
+							android:id="@+id/textDate35"
+							android:layout_width="wrap_content"
+							android:layout_height="30px"
+							android:text="88"
+							android:textColor="#ff000000"
+					android:textSize="18sp"
+					android:gravity="center_horizontal"
+							android:layout_weight="0.143" />
+				</TableRow>
+        <TableRow
+  android:id="@+id/row6"
+  android:layout_width="fill_parent"
+  android:layout_height="30px"
+  android:orientation="horizontal">
+          <TextView
+  android:id="@+id/textDate36"
+android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+  android:textColor="#ff000000"
+  android:layout_height="30px"
+  android:text="88"
+  android:textSize="18sp"
+  android:layout_weight="0.143" />
+          <TextView
+            android:id="@+id/textDate37"
+            android:layout_width="wrap_content"
+        android:layout_height="30px"
+        android:gravity="center_horizontal"
+            android:textColor="#ff000000"
+            android:textSize="18sp"
+            android:layout_weight="0.143" />
+          <TextView
+            android:id="@+id/textDate38"
+            android:layout_width="wrap_content"
+        android:layout_height="30px"
+        android:gravity="center_horizontal"
+            android:textColor="#ff000000"
+            android:text="88"
+            android:textSize="18sp"
+            android:layout_weight="0.143" />
+          <TextView
+            android:id="@+id/textDate39"
+            android:layout_width="wrap_content"
+        android:textColor="#ff000000"
+        android:gravity="center_horizontal"
+            android:layout_height="30px"
+            android:text="88"
+            android:textSize="18sp"
+            android:layout_weight="0.143" />
+          <TextView
+            android:id="@+id/textDate40"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:text="88"
+            android:textSize="18sp"
+        android:textColor="#ff000000"
+        android:gravity="center_horizontal"
+            android:layout_weight="0.143" />
+          <TextView
+            android:id="@+id/textDate41"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:text="88"
+            android:textSize="18sp"
+            android:textColor="#ff000000"
+        android:layout_weight="0.143"
+        android:gravity="center_horizontal" />
+          <TextView
+            android:id="@+id/textDate42"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:text="88"
+            android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+            android:layout_weight="0.143" />
+        </TableRow>
+			</TableLayout>
+
+		<TableLayout
+	android:id="@+id/tableBtns"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/masterTable">
+			<TableRow
+	android:id="@+id/tableRowBtn"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+				<Button
+					android:id="@+id/btnPrevMonth"
+					android:layout_width="100px"
+					android:layout_height="34px"
+					android:text="Previous"
+					android:textSize="12sp"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentLeft="true" />
+				<TextView
+					android:id="@+id/textMonthYear"
+					android:layout_width="110px"
+					android:layout_height="wrap_content"
+					android:text="February 2012"
+					android:gravity="center"
+					android:textColor="#ff000000"
+					android:layout_toRightOf="@+id/btnPrevMonth"
+					android:layout_toLeftOf="@+id/btnNextMonth" />
+				<Button
+					android:id="@+id/btnNextMonth"
+					android:layout_width="100px"
+					android:layout_height="34px"
+					android:text="Next"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentRight="true" />
+			</TableRow>
+		</TableLayout>
+
+		<TableLayout
+			android:id="@+id/table"
+			android:layout_width="match_parent"
+			android:layout_height="30px"
+			android:orientation="vertical"
+			android:paddingBottom="5dp"
+			android:layout_below="@+id/imgAdvert"
+			android:stretchColumns="1">
+			<TableRow
+				android:id="@+id/tableRow"
+				android:layout_width="fill_parent"
+				android:layout_height="match_parent"
+				android:background="#ff333333"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imgBack"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="#cc333333"
+					android:src="@drawable/BackBtn_Black"
+					android:layout_alignParentLeft="true" />
+				<TextView
+					android:id="@+id/textTitle"
+					android:layout_width="265px"
+					android:layout_height="30px"
+					android:background="#ff333333"
+					android:layout_marginBottom="10dp"
+					android:text="TextView"
+					android:textSize="18sp"
+					android:gravity="center"
+					android:layout_alignTop="@+id/imgBack"
+					android:layout_alignParentRight="true" />
+			</TableRow>
+		</TableLayout>
+		<ImageView
+			android:id="@+id/imgAdvert"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="2dp"
+			android:src="@drawable/HP_iPhone"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true" />
+</RelativeLayout>

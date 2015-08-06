@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19CFEED2-B1A3-48EA-A6E9-87FC5781C0BB}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>oqhra_android</RootNamespace>
+    <AssemblyName>oqhra-android</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <DeployExternal>False</DeployExternal>
+    <AndroidSupportedAbis>armeabi%3barmeabi-v7a%3bx86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;LAPTOP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;LAPTOP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activity1.cs" />
+    <Compile Include="betting.cs" />
+    <Compile Include="database-user.cs" />
+    <Compile Include="database\Database.cs" />
+    <Compile Include="database\SQLite.cs" />
+    <Compile Include="miscweb.cs" />
+    <Compile Include="modal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="uibits.cs" />
+    <Compile Include="videoplayer.cs" />
+    <Compile Include="Web References\bz.ret.www\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="webservice-user.cs" />
+    <Compile Include="webservice-webview.cs" />
+    <Compile Include="webservice.cs" />
+    <Compile Include="websiteview.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\OQHRA2011.db" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\Layout\listview_layout.axml" />
+    <AndroidResource Include="Resources\Layout\main_original.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\five_buttons.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\threebuttons.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\calendar.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\webview.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\shopping.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\advert_layout.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\speedindex.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\stakes.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\fourbuttons.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\listview_2lines.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\video.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <None Include="Web References\bz.ret.www\AlexClass.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\AppFeatured.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\CDInventory.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\eStallionMember.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\EventsList.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\FeatureInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\HorseInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\ListingPreview.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\Listings.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\POHWSDS.wsdl" />
+    <None Include="Web References\bz.ret.www\ProfileStuff.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\PropertyListing.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\PropertyListingShort.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\RaceEntries.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\RaceInfoFull.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\RaceResults.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\Races.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\RacesResults.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\bz.ret.www\SavedRunsList.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\SpeedIndex.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\Sponsors.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\SponsorsList.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\StakesInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\Track.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\UpcomingRaces.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\VideoDates.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\bz.ret.www\Videos.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Layout\Main.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\back_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\backbtn_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\bobmoore_iphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\home_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\hp_iphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\ic_tabs_cal.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\ic_tabs_home.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\ic_tabs_news.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\ic_tabs_race.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\news.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\rightarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\silks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\launcher.png" />
+    <AndroidResource Include="Resources\Drawable\bluebutton.png" />
+    <AndroidResource Include="Resources\Drawable\greybutton.png" />
+    <AndroidResource Include="Resources\Drawable\biggreybutton.png" />
+    <AndroidResource Include="Resources\Drawable\tableshape.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <None Include="javascript\SiteFunction.js" />
+    <AndroidAsset Include="Assets\StyleSheet.css" />
+    <AndroidAsset Include="Assets\Back_AQHA.png" />
+    <AndroidAsset Include="Assets\Back_Markel.png" />
+    <AndroidAsset Include="Assets\Back_Business.png" />
+    <AndroidAsset Include="Assets\eqbpower.png" />
+    <AndroidAsset Include="Assets\Back_Profile.png" />
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\Drawable\uiglassbutton.png" />
+    <AndroidResource Include="Resources\Drawable\back_racehorseplace.png" />
+    <AndroidResource Include="Resources\Drawable\back_bobmoore.png" />
+    <AndroidResource Include="Resources\Drawable\back_markel.png" />
+    <AndroidResource Include="Resources\Drawable\back_lazye.png" />
+    <AndroidResource Include="Resources\Drawable\back_yearsley.png" />
+    <AndroidResource Include="Resources\Drawable\default_splash.png" />
+    <AndroidResource Include="Resources\Drawable\back_business.png" />
+    <AndroidResource Include="Resources\Values\Styles.xml" />
+    <AndroidResource Include="Resources\Drawable\close.png" />
+    <AndroidResource Include="Resources\Drawable\exclaim.png" />
+    <None Include="Web References\bz.ret.www\POHWSDS.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.ret.bz/POH1/POHWSDS.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\bz.ret.www\</RelPath>
+      <UpdateFromURL>http://www.ret.bz/POH1/POHWSDS.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

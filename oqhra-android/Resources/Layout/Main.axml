@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	android:id="@android:id/tabhost"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout
+		android:id="@+id/relLayout"
+		android:layout_width="match_parent"
+		android:background="@drawable/back_home"
+		android:layout_height="match_parent">
+		<ImageView
+			android:id="@+id/imgBack"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"
+			android:src="@drawable/BackBtn_Black"
+			android:layout_below="@+id/imgAdvert"
+			android:layout_alignParentLeft="true" />
+		<TextView
+			android:id="@+id/textTitle"
+			android:layout_width="265px"
+			android:layout_height="30px"
+			android:background="#ff333333"
+			android:layout_marginBottom="10dp"
+			android:text="TextView"
+			android:textSize="18sp"
+			android:gravity="center"
+			android:layout_alignTop="@+id/imgBack"
+			android:layout_alignParentRight="true" />
+		<ListView
+			android:id="@+id/listView"
+			android:layout_width="260px"
+			android:layout_height="wrap_content"
+			android:background="@drawable/tableshape"
+			android:padding="5dp"
+			android:layout_below="@+id/textTitle"
+			android:layout_centerHorizontal="true" />
+		<ImageView
+			android:id="@+id/imgAdvert"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="2dp"
+			android:src="@drawable/HP_iPhone"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true" />
+
+<LinearLayout
+			android:id="@+id/widget51"
+			android:layout_width="fill_parent"
+			android:layout_height="62px"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true">
+			<TabWidget
+				android:id="@android:id/tabs"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<FrameLayout
+		android:id="@android:id/tabcontent"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+				<LinearLayout
+						android:id="@+id/tab1"
+						android:layout_width="80px"
+						android:layout_height="wrap_content" >
+				</LinearLayout>
+
+				<LinearLayout
+						android:id="@+id/tab2"
+						android:layout_width="80px"
+						android:layout_height="wrap_content" >
+				</LinearLayout>
+
+				<LinearLayout
+						android:id="@+id/tab3"
+						android:layout_width="80px"
+						android:layout_height="wrap_content" >
+				</LinearLayout>
+
+				<LinearLayout
+					 android:id="@+id/tab4"
+					 android:layout_width="80px"
+					 android:layout_height="wrap_content" >
+				</LinearLayout>
+			</FrameLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</TabHost>

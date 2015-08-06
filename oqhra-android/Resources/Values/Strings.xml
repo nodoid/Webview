@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="menu_home">Home</string>
+  <string name="menu_stakes">Stakes Info</string>
+  <string name="menu_calendar">Calendar</string>
+  <string name="menu_news">News</string>
+  <string name="menu_copyright">Copyright</string>
+  <string name="menu_quit">Quit App</string>
+  <string name="appname">OQHRA</string>
+  <string name="MainTitle">Oklahoma Quarter Horse Racing</string>
+  <string-array name="frontpage">
+    <item>Oklahoma Race Tracks</item>
+    <item>Upcoming Races</item>
+    <item>Race Results</item>
+    <item>For The Horsemen</item>
+    <item>Videos</item>
+    <item>Standings</item>
+    <item>Betting &amp; Handicapping</item>
+    <item>Featured Racing Profiles</item>
+    <item>OHQRA website</item>
+    <item>Shopping &amp; Attractions</item>
+    <item>Dining &amp; Lodgings</item>
+  </string-array>
+  <string name="Tracks">Race Tracks</string>
+  <string-array name="RaceTracks">
+    <item>Remington Park</item>
+    <item>Will Rogers Downs</item>
+    <item>Fair Meadows</item>
+  </string-array>
+  <string name="ComingSoon">Upcoming Races</string>
+  <string-array name="upcoming">
+    <item>Sorry, no QH races in the next 7 days</item>
+  </string-array>
+  <string name="RaceRes">Race Results</string>
+  <string-array name="raceresults">
+    <item>No results available</item>
+  </string-array>
+  <string name="ForHorse">For The Horsemen</string>
+  <string-array name="horsemen">
+    <item>Speed Index Converter</item>
+    <item>Overnights</item>
+    <item>Saved Runs</item>
+    <item>Current Standings</item>
+    <item>Conditions Book</item>
+    <item>Index Of Races</item>
+    <item>Contact Information</item>
+  </string-array>
+  <string name="standings">Current Standings</string>
+  <string name="speedind">Speed Index</string>
+  <string-array name="currentstandings">
+    <item>Quarter Horses</item>
+    <item>Paints and Apps</item>
+  </string-array>
+  <string name="vids">Videos</string>
+  <string name="profiles">Racing Profiles</string>
+  <string-array name="rprofs">
+    <item>Horses</item>
+    <item>Stallions</item>
+    <item>Jockeys</item>
+    <item>Trainers</item>
+    <item>Owners</item>
+    <item>Breaders</item>
+  </string-array>
+  <string name="ChooseBetTitle">Betting &amp; Handicapping</string>
+  <string name="cbintro">Note. The payout or bet cost figures returned on the subsquent screens are in no way intended to be an accurate representation of the
+    hypothetical bet. They are meant only as a guideline</string>
+  <string-array name="choosebet">
+    <item>Straight Win Payout</item>
+    <item>Daily Double Wagering Cost</item>
+    <item>Exacta Box Wagering Cost</item>
+    <item>Exacta Part-Wheel Wagering Cost</item>
+    <item>Trifecta Box Wagering Cost</item>
+    <item>Trifecta Key Wagering Cost</item>
+  </string-array>
+  <string-array name="racedistance">
+    <item>All</item>
+    <item>100 yards</item>
+    <item>110 yards</item>
+    <item>220 yards</item>
+    <item>250 yards</item>
+    <item>300 yards</item>
+    <item>330 yards</item>
+    <item>350 yards</item>
+    <item>400 yards</item>
+    <item>440 yards</item>
+    <item>550 yards</item>
+    <item>660 yards</item>
+    <item>770 yards</item>
+    <item>870 yards</item>
+    <item>880 yards</item>
+    <item>1000 yards</item>
+  </string-array>
+  <string-array name="explorebets">
+    <item>Straight Wagering</item>
+    <item>Straight Daily Double</item>
+    <item>Daily Double Part-Wheel</item>
+    <item>Exacta Wagering</item>
+    <item>Straight Exacta</item>
+    <item>Exacta Box</item>
+    <item>Exacta Part-Wheel</item>
+    <item>Trifecta Wagering</item>
+    <item>Straight Trifecta</item>
+    <item>Trifecta Box</item>
+    <item>Trifecta Part-Wheel</item>
+    <item>Trifecta Key</item>
+  </string-array>
+  <string name="RP">Remington Park</string>
+  <string name="FM">Fair Meadows</string>
+  <string name="WR">Will Rogers Downs</string>
+  <string-array name="stakescourses">
+    <item>All</item>
+    <item>Remington Park</item>
+    <item>Fair Meadows</item>
+    <item>Will Rogers Downs</item>
+  </string-array>
+  <string-array name="racegrade">
+    <item>All</item>
+    <item>G1</item>
+    <item>G2</item>
+    <item>G3</item>
+    <item>RG1</item>
+    <item>RG2</item>
+    <item>RG3</item>
+  </string-array>
+  <string-array name="racesex">
+    <item>All</item>
+    <item>Colts and Geldings</item>
+    <item>Fillies and Mares</item>
+  </string-array>
+  <string-array name="racebreed">
+    <item>All</item>
+    <item>App</item>
+    <item>P</item>
+    <item>Paints and App</item>
+    <item>Paints</item>
+    <item>QH</item>
+  </string-array>
+  <string name="savedruns">Saved runs</string>
+  <string-array name="savedrunstable">
+    <item>Horse</item>
+    <item>Track</item>
+    <item>Time</item>
+    <item>Distance</item>
+    <item>Date</item>
+  </string-array>
+  <string name="choosedist">Choose distance</string>
+  <string name="choosedistbtn">Calculate speed index</string>
+  <string name="shopping">Shopping &amp; Attractions</string>
+  <string name="dining">Dining &amp; Lodging</string>
+  <string-array name="shopatt">
+    <item>Our Oklahoma race tracks bring</item>
+    <item>in a lot of visitors</item>
+    <item></item>
+    <item>Make it easy to find where to</item>
+    <item>Stay - Play - Eat - Shop</item>
+    <item></item>
+    <item>List your business now for only</item>
+    <item>$199 for the entire year!</item>
+    <item></item>
+    <item>Title sponsorships</item>
+    <item>Also available</item>
+    <item></item>
+    <item>Call or Email Alex at</item>
+    <item>405-589-8263</item>
+    <item>alex.maddox@adsfactory.com</item>
+  </string-array>
+</resources>
